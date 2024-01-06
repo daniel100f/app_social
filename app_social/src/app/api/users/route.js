@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
 
+//para las variables de entorno no hace falta un npm i dotenv
+//directamente es ej: const aux = process.env.SECRET_KEY
+console.log(process.env.SECRET_KEY);
+
 export const GET = () => {
   //consultar la bd
   //comunicarme con otros servicios
